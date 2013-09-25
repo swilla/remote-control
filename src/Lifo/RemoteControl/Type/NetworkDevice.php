@@ -394,7 +394,7 @@ class NetworkDevice
         if (!empty($options['cmdline'])) {
             $cmd .= " " . $options['cmdline'];
         }
-        if ($username != '')) {
+        if ($username != '') {
             $cmd .= " -l $username $host";
         }
         if (!empty($options['port']) and $options['port'] != '23') {
